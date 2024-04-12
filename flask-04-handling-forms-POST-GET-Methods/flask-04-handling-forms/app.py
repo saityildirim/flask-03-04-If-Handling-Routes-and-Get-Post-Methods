@@ -20,7 +20,7 @@ def greet():
         usr = request.args['user']
         return render_template('greet.html', user=usr)
    else:
-        return render_template('greet.html', user='Send your user name with "greet?user=xxxxx" param in query string')
+        return render_template('greet.html', user='Send your use r name with "greet?user=xxxxx" param in query string')
 
 # Write a function named `login` which uses `GET` and `POST` methods, 
 # and template files named `login.html` and `secure.html` given under `templates` folder 
